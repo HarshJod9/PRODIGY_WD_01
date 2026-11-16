@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5ef">
+  <meta name="description" content="A responsive landing page for Fieldnote, a calmer way to plan your week.">
+  <title>Fieldnote — make room for good work</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <nav class="nav-shell" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Fieldnote home"><span class="brand-mark">f.</span><span>fieldnote</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#approach">Our approach</a><a href="#features">Features</a><a href="#story">Our story</a>
+        <a class="nav-cta" href="#join">Get early access <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> A little more intention, every day</p>
+        <h1>Make room for<br><span>good work.</span></h1>
+        <p class="hero-text">Fieldnote helps you plan a week that feels focused, flexible and unmistakably yours.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#join">Find your rhythm <span aria-hidden="true">↗</span></a><a class="text-link" href="#approach">See how it works <span aria-hidden="true">↓</span></a></div>
+        <div class="proof"><div class="avatar-stack" aria-hidden="true"><i>J</i><i>M</i><i>A</i></div><p><strong>Thoughtfully made</strong><br>for the way real weeks unfold.</p></div>
+      </div>
+      <div class="hero-art" aria-label="Illustration of a weekly planner">
+        <div class="sun-orbit"></div><div class="note-card note-back"><span class="note-day">FRI</span><span class="note-line long"></span><span class="note-line"></span><span class="note-line short"></span><span class="note-stamp">leave space</span></div>
+        <div class="note-card note-front"><div class="card-top"><span class="note-day">MON · 09</span><span class="card-menu">•••</span></div><h2>A week<br>with room.</h2><div class="task"><span class="check">✓</span><span>Deep work</span><b>9:30</b></div><div class="task"><span class="check empty"></span><span>Walk + reset</span><b>12:00</b></div><div class="task"><span class="check empty"></span><span>Make a start</span><b>14:15</b></div><div class="card-footer"><span class="spark">✳</span><span>3 things, plenty of space</span></div></div>
+        <span class="floating-star star-one">✳</span><span class="floating-star star-two">✳</span><div class="art-caption">Plan less. Be here more.</div>
+      </div>
+    </section>
+    <section class="ticker" aria-label="Fieldnote values"><div class="ticker-track"><span>MAKE SPACE</span><i>✳</i><span>FOLLOW YOUR FOCUS</span><i>✳</i><span>LEAVE ROOM TO WANDER</span><i>✳</i><span>MAKE SPACE</span><i>✳</i><span>FOLLOW YOUR FOCUS</span><i>✳</i><span>LEAVE ROOM TO WANDER</span></div></section>
+    <section class="approach section-wrap" id="approach"><div class="section-heading"><p class="eyebrow">A softer kind of structure</p><h2>Your week is a sketch,<br><em>not a checklist.</em></h2></div><p class="section-aside">The best plan is the one that gives your priorities a place to land—and gives the unexpected somewhere to go.</p></section>
+    <section class="feature-grid section-wrap" id="features">
+      <article class="feature-card feature-one"><div class="feature-visual day-visual"><span class="sun-icon">☼</span><span class="time-label">9:30 — 11:00</span><span class="block-label">Make something</span><span class="block-rule"></span><span class="day-label">MONDAY</span></div><p class="feature-number">01 / Find your focus</p><h3>Give the important<br>things a little daylight.</h3><p>Make a small plan that points your attention where you want it to go.</p></article>
+      <article class="feature-card feature-two"><div class="feature-visual space-visual"><div class="space-circle circle-one"></div><div class="space-circle circle-two"></div><span class="space-note">nothing scheduled<br>is still a plan</span><span class="space-doodle">↗</span></div><p class="feature-number">02 / Keep your margins</p><h3>Leave a little<br>unsaid—and unscheduled.</h3><p>Build in breathing room for the delays, detours and good surprises.</p></article>
+      <article class="feature-card feature-three"><div class="feature-visual rhythm-visual"><div class="rhythm-line"></div><span class="rhythm-dot dot-a"></span><span class="rhythm-dot dot-b"></span><span class="rhythm-dot dot-c"></span><span class="rhythm-tag tag-a">focus</span><span class="rhythm-tag tag-b">pause</span><span class="rhythm-tag tag-c">again</span><span class="rhythm-caption">YOUR OWN PACE</span></div><p class="feature-number">03 / Notice your rhythm</p><h3>Make a week that<br>moves like you do.</h3><p>Find a cadence that makes space for deep focus and a proper pause.</p></article>
+    </section>
+    <section class="quote-section" id="story"><div class="quote-mark">“</div><blockquote>A calmer week doesn’t happen by accident. It starts with choosing what matters—and letting the rest breathe.</blockquote><p>THE FIELDNOTE WAY</p></section>
+    <section class="join-section section-wrap" id="join"><div><p class="eyebrow">Your next week can feel different</p><h2>Start with a<br><em>blank page.</em></h2></div><form class="signup-form" id="signup-form"><label for="email">Get the Fieldnote preview</label><div class="input-row"><input id="email" name="email" type="email" placeholder="Your email address" autocomplete="email" required><button type="submit" aria-label="Join the preview list">Join <span aria-hidden="true">↗</span></button></div><p class="form-note" id="form-note" aria-live="polite">A quiet note when we’re ready. No noise.</p></form></section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#top"><span class="brand-mark">f.</span><span>fieldnote</span></a><p>Make room for good work.</p><a href="#top">Back to top ↑</a><small>© <span id="year"></span> Fieldnote Studio</small></footer>
+</body>
+</html>
